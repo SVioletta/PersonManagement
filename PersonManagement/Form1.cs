@@ -26,17 +26,19 @@ namespace PersonManagement
 
 
 
-            T_HR_YGJBXX model = new T_HR_YGJBXX();
-            model.RID = "1";
-            model.GH = "000001";
-            model.XM = "heihei";
-            model.SSBM = "aaa";
-            model.ZJHM = "bbb";
-            model.SFYLDSC = "1";
-            model.SFBLGSBJJ = "1";
-            model.SFBLGGJJ = "1";
-            model.SFBLGZHBX = "1";
-            model.YDWSFBLTG = "1";
+            T_HR_YGJBXX model = new T_HR_YGJBXX
+            {
+                RID = "1",
+                GH = "000001",
+                XM = "heihei",
+                SSBM = "aaa",
+                ZJHM = "bbb",
+                SFYLDSC = "1",
+                SFBLGSBJJ = "1",
+                SFBLGGJJ = "1",
+                SFBLGZHBX = "1",
+                YDWSFBLTG = "1"
+            };
 
 
             T_HR_YGJBXXBLL bll = new T_HR_YGJBXXBLL();
