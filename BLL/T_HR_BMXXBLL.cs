@@ -13,7 +13,7 @@ namespace BLL
         /// <summary>
         ///BLL方法：向数据库中增加新一条新的T_HR_BMXX对象数据------>请传入对象，返回首行首列
         /// </summary>
-        /// <returns></returns>
+        /// <returns></returns>  
         public object Add(T_HR_BMXX model)
         {
             T_HR_BMXXDAL td = new T_HR_BMXXDAL();
