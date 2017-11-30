@@ -21,17 +21,17 @@ namespace PersonManagement
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //this.dataGridView1.DataSource = bll.SelectAllByAdapter();
+            
 
 
 
 
             T_HR_YGJBXX model = new T_HR_YGJBXX
             {
-                RID = "1",
+                RID = "3",
                 GH = "000001",
                 XM = "heihei",
-                SSBM = "aaa",
+                SSBM = "1",
                 ZJHM = "bbb",
                 SFYLDSC = "1",
                 SFBLGSBJJ = "1",
@@ -44,15 +44,17 @@ namespace PersonManagement
             T_HR_YGJBXXBLL bll = new T_HR_YGJBXXBLL();
             bll.Add(model);
 
-            T_HR_XXPXLL xj = new T_HR_XXPXLL();
-            xj.RID = "1";
+            //T_HR_XXPXLL xj = new T_HR_XXPXLL();
+            //xj.RID = "1";
 
-            T_HR_XXPXLLBLL bllxp = new T_HR_XXPXLLBLL();
-            bllxp.Add(xj);
+            //T_HR_XXPXLLBLL bllxp = new T_HR_XXPXLLBLL();
+            //bllxp.Add(xj);
 
 
             //T_HR_YGJBXXBLL bll = new T_HR_YGJBXXBLL();
             //bll.Delete("RID", "1");
+
+            this.dataGridView1.DataSource = bll.SelectAllByAdapter();
 
             MessageBox.Show("ok");
         }
