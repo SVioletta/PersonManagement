@@ -50,6 +50,12 @@
     <Compile Include="adduser1.Designer.cs">
       <DependentUpon>adduser1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ExcelImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcelImport.Designer.cs">
+      <DependentUpon>ExcelImport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="adduser1.resx">
       <DependentUpon>adduser1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcelImport.resx">
+      <DependentUpon>ExcelImport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
