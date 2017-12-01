@@ -16,7 +16,7 @@ namespace PersonManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ExcelImport());
+            Application.Run(new adduser1());
         }
     }
 }
