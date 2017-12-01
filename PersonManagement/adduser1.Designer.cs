@@ -29,6 +29,22 @@
         private void InitializeComponent()
         {
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+			this.label15 = new System.Windows.Forms.Label();
+			this.comboBox6 = new System.Windows.Forms.ComboBox();
+			this.comboBox5 = new System.Windows.Forms.ComboBox();
+			this.label14 = new System.Windows.Forms.Label();
+			this.comboBox4 = new System.Windows.Forms.ComboBox();
+			this.comboBox3 = new System.Windows.Forms.ComboBox();
+			this.label13 = new System.Windows.Forms.Label();
+			this.label12 = new System.Windows.Forms.Label();
+			this.comboBox2 = new System.Windows.Forms.ComboBox();
+			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+			this.label11 = new System.Windows.Forms.Label();
+			this.label10 = new System.Windows.Forms.Label();
+			this.radioButton2 = new System.Windows.Forms.RadioButton();
+			this.radioButton1 = new System.Windows.Forms.RadioButton();
+			this.label9 = new System.Windows.Forms.Label();
 			this.comboBox1 = new System.Windows.Forms.ComboBox();
 			this.textBox8 = new System.Windows.Forms.TextBox();
 			this.label8 = new System.Windows.Forms.Label();
@@ -52,22 +68,6 @@
 			this.tabPage1 = new System.Windows.Forms.TabPage();
 			this.tabPage2 = new System.Windows.Forms.TabPage();
 			this.tabPage3 = new System.Windows.Forms.TabPage();
-			this.label9 = new System.Windows.Forms.Label();
-			this.radioButton1 = new System.Windows.Forms.RadioButton();
-			this.radioButton2 = new System.Windows.Forms.RadioButton();
-			this.label10 = new System.Windows.Forms.Label();
-			this.label11 = new System.Windows.Forms.Label();
-			this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-			this.comboBox2 = new System.Windows.Forms.ComboBox();
-			this.label12 = new System.Windows.Forms.Label();
-			this.label13 = new System.Windows.Forms.Label();
-			this.comboBox3 = new System.Windows.Forms.ComboBox();
-			this.comboBox4 = new System.Windows.Forms.ComboBox();
-			this.label14 = new System.Windows.Forms.Label();
-			this.comboBox5 = new System.Windows.Forms.ComboBox();
-			this.comboBox6 = new System.Windows.Forms.ComboBox();
-			this.label15 = new System.Windows.Forms.Label();
-			this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
 			this.groupBox1.SuspendLayout();
 			this.tabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
@@ -118,6 +118,242 @@
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "新建用户基本信息";
 			// 
+			// dateTimePicker2
+			// 
+			this.dateTimePicker2.Location = new System.Drawing.Point(86, 238);
+			this.dateTimePicker2.Name = "dateTimePicker2";
+			this.dateTimePicker2.Size = new System.Drawing.Size(110, 21);
+			this.dateTimePicker2.TabIndex = 34;
+			// 
+			// label15
+			// 
+			this.label15.AutoSize = true;
+			this.label15.Location = new System.Drawing.Point(23, 241);
+			this.label15.Name = "label15";
+			this.label15.Size = new System.Drawing.Size(53, 12);
+			this.label15.TabIndex = 33;
+			this.label15.Text = "毕业日期";
+			// 
+			// comboBox6
+			// 
+			this.comboBox6.AutoCompleteCustomSource.AddRange(new string[] {
+            "初中",
+            "高中",
+            "大专",
+            "本科",
+            "硕士",
+            "博士",
+            "成人高等教育",
+            "高教自学考试",
+            "电大开放教育",
+            "网络大学"});
+			this.comboBox6.FormattingEnabled = true;
+			this.comboBox6.Location = new System.Drawing.Point(478, 193);
+			this.comboBox6.Name = "comboBox6";
+			this.comboBox6.Size = new System.Drawing.Size(108, 20);
+			this.comboBox6.TabIndex = 32;
+			// 
+			// comboBox5
+			// 
+			this.comboBox5.AutoCompleteCustomSource.AddRange(new string[] {
+            "汉族",
+            "蒙古族",
+            "回族",
+            "藏族",
+            "维吾尔族",
+            "苗族",
+            "彝族",
+            "壮族",
+            "布依族",
+            "朝鲜族",
+            "满族",
+            "侗族",
+            "瑶族",
+            "白族",
+            "土家族",
+            "哈尼族",
+            "哈萨克族傣族",
+            "黎族",
+            "僳僳族",
+            "佤族",
+            "畲族",
+            "高山族",
+            "拉祜族",
+            "水族",
+            "东乡族",
+            "纳西族",
+            "景颇族",
+            "柯尔克孜族",
+            "土族",
+            "达斡尔族",
+            "仫佬族",
+            "羌族",
+            "布朗族",
+            "撒拉族",
+            "毛南族",
+            "仡佬族",
+            "锡伯族",
+            "阿昌族",
+            "普米族",
+            "塔吉克族",
+            "怒族",
+            "乌孜别克族",
+            "俄罗斯族",
+            "鄂温克族",
+            "德昂族",
+            "保安族",
+            "裕固族",
+            "京族",
+            "塔塔尔族",
+            "独龙族",
+            "鄂伦春族",
+            "赫哲族",
+            "门巴族",
+            "珞巴族",
+            "基诺族"});
+			this.comboBox5.FormattingEnabled = true;
+			this.comboBox5.Location = new System.Drawing.Point(86, 193);
+			this.comboBox5.Name = "comboBox5";
+			this.comboBox5.Size = new System.Drawing.Size(110, 20);
+			this.comboBox5.TabIndex = 31;
+			// 
+			// label14
+			// 
+			this.label14.AutoSize = true;
+			this.label14.Location = new System.Drawing.Point(427, 196);
+			this.label14.Name = "label14";
+			this.label14.Size = new System.Drawing.Size(29, 12);
+			this.label14.TabIndex = 30;
+			this.label14.Text = "学历";
+			// 
+			// comboBox4
+			// 
+			this.comboBox4.FormattingEnabled = true;
+			this.comboBox4.Items.AddRange(new object[] {
+            "已婚",
+            "未婚",
+            "离异"});
+			this.comboBox4.Location = new System.Drawing.Point(276, 193);
+			this.comboBox4.Name = "comboBox4";
+			this.comboBox4.Size = new System.Drawing.Size(108, 20);
+			this.comboBox4.TabIndex = 29;
+			// 
+			// comboBox3
+			// 
+			this.comboBox3.FormattingEnabled = true;
+			this.comboBox3.Items.AddRange(new object[] {
+            "中共党员",
+            "共青团员",
+            "群众"});
+			this.comboBox3.Location = new System.Drawing.Point(276, 154);
+			this.comboBox3.Name = "comboBox3";
+			this.comboBox3.Size = new System.Drawing.Size(108, 20);
+			this.comboBox3.TabIndex = 28;
+			// 
+			// label13
+			// 
+			this.label13.AutoSize = true;
+			this.label13.Location = new System.Drawing.Point(217, 197);
+			this.label13.Name = "label13";
+			this.label13.Size = new System.Drawing.Size(53, 12);
+			this.label13.TabIndex = 27;
+			this.label13.Text = "婚姻状况";
+			// 
+			// label12
+			// 
+			this.label12.AutoSize = true;
+			this.label12.Location = new System.Drawing.Point(23, 196);
+			this.label12.Name = "label12";
+			this.label12.Size = new System.Drawing.Size(29, 12);
+			this.label12.TabIndex = 26;
+			this.label12.Text = "民族";
+			// 
+			// comboBox2
+			// 
+			this.comboBox2.FormattingEnabled = true;
+			this.comboBox2.Items.AddRange(new object[] {
+            "董事长",
+            "总经理",
+            "副总经理",
+            "办公室主任",
+            "董事",
+            "监事",
+            "秘书",
+            "部门经理",
+            "部门副经理",
+            "项目经理",
+            "总设计师",
+            "系统分析师",
+            "设计师",
+            "数据库分析师",
+            "项目总监",
+            "质量总监",
+            "测试工程师",
+            "软件工程师",
+            "程序员",
+            "测试员"});
+			this.comboBox2.Location = new System.Drawing.Point(478, 70);
+			this.comboBox2.Name = "comboBox2";
+			this.comboBox2.Size = new System.Drawing.Size(108, 20);
+			this.comboBox2.TabIndex = 25;
+			// 
+			// dateTimePicker1
+			// 
+			this.dateTimePicker1.Location = new System.Drawing.Point(478, 153);
+			this.dateTimePicker1.Name = "dateTimePicker1";
+			this.dateTimePicker1.Size = new System.Drawing.Size(108, 21);
+			this.dateTimePicker1.TabIndex = 24;
+			// 
+			// label11
+			// 
+			this.label11.AutoSize = true;
+			this.label11.Location = new System.Drawing.Point(403, 159);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(53, 12);
+			this.label11.TabIndex = 23;
+			this.label11.Text = "出生日期";
+			// 
+			// label10
+			// 
+			this.label10.AutoSize = true;
+			this.label10.Location = new System.Drawing.Point(217, 158);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(53, 12);
+			this.label10.TabIndex = 22;
+			this.label10.Text = "政治面貌";
+			// 
+			// radioButton2
+			// 
+			this.radioButton2.AutoSize = true;
+			this.radioButton2.Location = new System.Drawing.Point(143, 158);
+			this.radioButton2.Name = "radioButton2";
+			this.radioButton2.Size = new System.Drawing.Size(35, 16);
+			this.radioButton2.TabIndex = 21;
+			this.radioButton2.TabStop = true;
+			this.radioButton2.Text = "男";
+			this.radioButton2.UseVisualStyleBackColor = true;
+			this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+			// 
+			// radioButton1
+			// 
+			this.radioButton1.AutoSize = true;
+			this.radioButton1.Location = new System.Drawing.Point(86, 157);
+			this.radioButton1.Name = "radioButton1";
+			this.radioButton1.Size = new System.Drawing.Size(35, 16);
+			this.radioButton1.TabIndex = 20;
+			this.radioButton1.TabStop = true;
+			this.radioButton1.Text = "女";
+			this.radioButton1.UseVisualStyleBackColor = true;
+			// 
+			// label9
+			// 
+			this.label9.AutoSize = true;
+			this.label9.Location = new System.Drawing.Point(23, 159);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(29, 12);
+			this.label9.TabIndex = 19;
+			this.label9.Text = "性别";
+			// 
 			// comboBox1
 			// 
 			this.comboBox1.FormattingEnabled = true;
@@ -134,7 +370,7 @@
 			// 
 			// textBox8
 			// 
-			this.textBox8.Location = new System.Drawing.Point(478, 241);
+			this.textBox8.Location = new System.Drawing.Point(478, 238);
 			this.textBox8.Name = "textBox8";
 			this.textBox8.Size = new System.Drawing.Size(108, 21);
 			this.textBox8.TabIndex = 17;
@@ -325,242 +561,6 @@
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "tabPage3";
 			this.tabPage3.UseVisualStyleBackColor = true;
-			// 
-			// label9
-			// 
-			this.label9.AutoSize = true;
-			this.label9.Location = new System.Drawing.Point(23, 159);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(29, 12);
-			this.label9.TabIndex = 19;
-			this.label9.Text = "性别";
-			// 
-			// radioButton1
-			// 
-			this.radioButton1.AutoSize = true;
-			this.radioButton1.Location = new System.Drawing.Point(86, 157);
-			this.radioButton1.Name = "radioButton1";
-			this.radioButton1.Size = new System.Drawing.Size(35, 16);
-			this.radioButton1.TabIndex = 20;
-			this.radioButton1.TabStop = true;
-			this.radioButton1.Text = "女";
-			this.radioButton1.UseVisualStyleBackColor = true;
-			// 
-			// radioButton2
-			// 
-			this.radioButton2.AutoSize = true;
-			this.radioButton2.Location = new System.Drawing.Point(143, 158);
-			this.radioButton2.Name = "radioButton2";
-			this.radioButton2.Size = new System.Drawing.Size(35, 16);
-			this.radioButton2.TabIndex = 21;
-			this.radioButton2.TabStop = true;
-			this.radioButton2.Text = "男";
-			this.radioButton2.UseVisualStyleBackColor = true;
-			this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
-			// 
-			// label10
-			// 
-			this.label10.AutoSize = true;
-			this.label10.Location = new System.Drawing.Point(217, 158);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(53, 12);
-			this.label10.TabIndex = 22;
-			this.label10.Text = "政治面貌";
-			// 
-			// label11
-			// 
-			this.label11.AutoSize = true;
-			this.label11.Location = new System.Drawing.Point(403, 159);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(53, 12);
-			this.label11.TabIndex = 23;
-			this.label11.Text = "出生日期";
-			// 
-			// dateTimePicker1
-			// 
-			this.dateTimePicker1.Location = new System.Drawing.Point(478, 153);
-			this.dateTimePicker1.Name = "dateTimePicker1";
-			this.dateTimePicker1.Size = new System.Drawing.Size(108, 21);
-			this.dateTimePicker1.TabIndex = 24;
-			// 
-			// comboBox2
-			// 
-			this.comboBox2.FormattingEnabled = true;
-			this.comboBox2.Items.AddRange(new object[] {
-            "董事长",
-            "总经理",
-            "副总经理",
-            "办公室主任",
-            "董事",
-            "监事",
-            "秘书",
-            "部门经理",
-            "部门副经理",
-            "项目经理",
-            "总设计师",
-            "系统分析师",
-            "设计师",
-            "数据库分析师",
-            "项目总监",
-            "质量总监",
-            "测试工程师",
-            "软件工程师",
-            "程序员",
-            "测试员"});
-			this.comboBox2.Location = new System.Drawing.Point(478, 70);
-			this.comboBox2.Name = "comboBox2";
-			this.comboBox2.Size = new System.Drawing.Size(108, 20);
-			this.comboBox2.TabIndex = 25;
-			// 
-			// label12
-			// 
-			this.label12.AutoSize = true;
-			this.label12.Location = new System.Drawing.Point(23, 196);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(29, 12);
-			this.label12.TabIndex = 26;
-			this.label12.Text = "民族";
-			// 
-			// label13
-			// 
-			this.label13.AutoSize = true;
-			this.label13.Location = new System.Drawing.Point(217, 197);
-			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(53, 12);
-			this.label13.TabIndex = 27;
-			this.label13.Text = "婚姻状况";
-			// 
-			// comboBox3
-			// 
-			this.comboBox3.FormattingEnabled = true;
-			this.comboBox3.Items.AddRange(new object[] {
-            "中共党员",
-            "共青团员",
-            "群众"});
-			this.comboBox3.Location = new System.Drawing.Point(276, 154);
-			this.comboBox3.Name = "comboBox3";
-			this.comboBox3.Size = new System.Drawing.Size(108, 20);
-			this.comboBox3.TabIndex = 28;
-			// 
-			// comboBox4
-			// 
-			this.comboBox4.FormattingEnabled = true;
-			this.comboBox4.Items.AddRange(new object[] {
-            "已婚",
-            "未婚",
-            "离异"});
-			this.comboBox4.Location = new System.Drawing.Point(276, 193);
-			this.comboBox4.Name = "comboBox4";
-			this.comboBox4.Size = new System.Drawing.Size(108, 20);
-			this.comboBox4.TabIndex = 29;
-			// 
-			// label14
-			// 
-			this.label14.AutoSize = true;
-			this.label14.Location = new System.Drawing.Point(427, 196);
-			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(29, 12);
-			this.label14.TabIndex = 30;
-			this.label14.Text = "学历";
-			// 
-			// comboBox5
-			// 
-			this.comboBox5.AutoCompleteCustomSource.AddRange(new string[] {
-            "汉族",
-            "蒙古族",
-            "回族",
-            "藏族",
-            "维吾尔族",
-            "苗族",
-            "彝族",
-            "壮族",
-            "布依族",
-            "朝鲜族",
-            "满族",
-            "侗族",
-            "瑶族",
-            "白族",
-            "土家族",
-            "哈尼族",
-            "哈萨克族傣族",
-            "黎族",
-            "僳僳族",
-            "佤族",
-            "畲族",
-            "高山族",
-            "拉祜族",
-            "水族",
-            "东乡族",
-            "纳西族",
-            "景颇族",
-            "柯尔克孜族",
-            "土族",
-            "达斡尔族",
-            "仫佬族",
-            "羌族",
-            "布朗族",
-            "撒拉族",
-            "毛南族",
-            "仡佬族",
-            "锡伯族",
-            "阿昌族",
-            "普米族",
-            "塔吉克族",
-            "怒族",
-            "乌孜别克族",
-            "俄罗斯族",
-            "鄂温克族",
-            "德昂族",
-            "保安族",
-            "裕固族",
-            "京族",
-            "塔塔尔族",
-            "独龙族",
-            "鄂伦春族",
-            "赫哲族",
-            "门巴族",
-            "珞巴族",
-            "基诺族"});
-			this.comboBox5.FormattingEnabled = true;
-			this.comboBox5.Location = new System.Drawing.Point(86, 193);
-			this.comboBox5.Name = "comboBox5";
-			this.comboBox5.Size = new System.Drawing.Size(110, 20);
-			this.comboBox5.TabIndex = 31;
-			// 
-			// comboBox6
-			// 
-			this.comboBox6.AutoCompleteCustomSource.AddRange(new string[] {
-            "初中",
-            "高中",
-            "大专",
-            "本科",
-            "硕士",
-            "博士",
-            "成人高等教育",
-            "高教自学考试",
-            "电大开放教育",
-            "网络大学"});
-			this.comboBox6.FormattingEnabled = true;
-			this.comboBox6.Location = new System.Drawing.Point(478, 193);
-			this.comboBox6.Name = "comboBox6";
-			this.comboBox6.Size = new System.Drawing.Size(108, 20);
-			this.comboBox6.TabIndex = 32;
-			// 
-			// label15
-			// 
-			this.label15.AutoSize = true;
-			this.label15.Location = new System.Drawing.Point(23, 241);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(53, 12);
-			this.label15.TabIndex = 33;
-			this.label15.Text = "毕业日期";
-			// 
-			// dateTimePicker2
-			// 
-			this.dateTimePicker2.Location = new System.Drawing.Point(86, 238);
-			this.dateTimePicker2.Name = "dateTimePicker2";
-			this.dateTimePicker2.Size = new System.Drawing.Size(110, 21);
-			this.dateTimePicker2.TabIndex = 34;
 			// 
 			// adduser1
 			// 
